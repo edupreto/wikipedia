@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipédia</title>
+    <Style>
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 40px;;
+            height: 150px;
+
+        }
+
+        .access {
+            display: flex;
+            align-items: center;
+            margin: 0 40px;
+        }
+
+        .access input {
+            width: 800px;
+        }
+
+        .access button, input {
+            
+            padding: 10px;
+        }
+
+        #avatar {
+            height: 50px;
+        }
+
+       
+    </Style>
+</head>
+<body>
+    <header class="header">
+        <div>
+            <img src="wiki.svg" alt="logo wikipedia">
+        </div>
+
+        <div class="access">
+            <input class="input__input" type="search" name="search" placeholder="Pesquisar na Wikipédia" aria-label="Pesquisar na Wikipédia">
+            <button class="input-button">Pesquisar</button>
+        </div>
+
+        <div>
+            <img id="avatar" src="login-avatar.png" alt="reminder">
+        </div>
+        
+        
+    </header>
+
+
+</body>
+</html>
